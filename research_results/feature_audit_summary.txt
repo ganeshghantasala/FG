@@ -1,0 +1,21 @@
+FakeGuard feature audit
+Training rows: 189074
+Testing rows: 46721
+Shared domains: 0
+Test rows with identical training feature vectors: 8418
+Feature vectors associated with both labels: 0
+
+Top individual features by AUC:
+                   feature  test_auc_raw  best_direction_auc                             direction  derived_feature  importance
+                LineOfCode      0.008418            0.991582  lower values associate with phishing            False    0.131579
+           NoOfExternalRef      0.011268            0.988732  lower values associate with phishing            False    0.130650
+                 NoOfImage      0.019183            0.980817  lower values associate with phishing            False    0.134589
+               NoOfSelfRef      0.026079            0.973921  lower values associate with phishing            False    0.102235
+                    NoOfJS      0.026529            0.973471  lower values associate with phishing            False    0.063951
+                   NoOfCSS      0.040972            0.959028  lower values associate with phishing            False    0.087199
+              HasSocialNet      0.106344            0.893656  lower values associate with phishing            False    0.052100
+          HasCopyrightInfo      0.121838            0.878162  lower values associate with phishing            False    0.028344
+            HasDescription      0.154105            0.845895  lower values associate with phishing            False    0.036954
+         LargestLineLength      0.179028            0.820972  lower values associate with phishing            False    0.024472
+NoOfOtherSpecialCharsInURL      0.818548            0.818548 higher values associate with phishing            False    0.038130
+     SpacialCharRatioInURL      0.808179            0.808179 higher values associate with phishing            False    0.006675

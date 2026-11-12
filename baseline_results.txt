@@ -1,0 +1,13 @@
+Project: FakeGuard
+Experiment: Baseline Machine Learning Evaluation
+Dataset: UCI Phishing Websites
+Model: Random Forest
+Test Samples: 2211
+
+Accuracy: 0.9760
+Precision: 0.9793
+Recall: 0.9663
+F1-score: 0.9728
+
+Model artifact: fakeguard_model.joblib
+Status: Baseline training completed successfully

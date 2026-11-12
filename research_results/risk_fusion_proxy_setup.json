@@ -1,0 +1,14 @@
+{
+  "dataset": "UCI PhiUSIIL, fetched via ucimlrepo id 967",
+  "positive_class": "Phishing (original target label 0)",
+  "split": "GroupShuffleSplit by normalized Domain, random_state 42",
+  "test_filter": "Remove test rows with complete 44-feature vectors in training",
+  "fixed_alert_threshold": 0.45,
+  "model": "RandomForestClassifier, 100 trees, random_state 42",
+  "important_limitation": "HTML and identity scores are dataset-derived proxies, not outputs from FakeGuard's live feature_engine.py. These results do not validate the exact live risk engine or imply live-site accuracy.",
+  "contradiction_rule_1_cases": 3401,
+  "contradiction_rule_2_cases": 478,
+  "any_contradiction_cases": 3445,
+  "shared_domains": 0,
+  "shared_complete_feature_vectors": 0
+}

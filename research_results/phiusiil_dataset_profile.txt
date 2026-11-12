@@ -1,0 +1,65 @@
+Dataset: PhiUSIIL Phishing URL (Website)
+Examples: 235795
+Feature columns: 54
+Target columns: ['label']
+
+Feature columns and data types:
+URL: object
+URLLength: int64
+Domain: object
+DomainLength: int64
+IsDomainIP: int64
+TLD: object
+URLSimilarityIndex: float64
+CharContinuationRate: float64
+TLDLegitimateProb: float64
+URLCharProb: float64
+TLDLength: int64
+NoOfSubDomain: int64
+HasObfuscation: int64
+NoOfObfuscatedChar: int64
+ObfuscationRatio: float64
+NoOfLettersInURL: int64
+LetterRatioInURL: float64
+NoOfDegitsInURL: int64
+DegitRatioInURL: float64
+NoOfEqualsInURL: int64
+NoOfQMarkInURL: int64
+NoOfAmpersandInURL: int64
+NoOfOtherSpecialCharsInURL: int64
+SpacialCharRatioInURL: float64
+IsHTTPS: int64
+LineOfCode: int64
+LargestLineLength: int64
+HasTitle: int64
+Title: object
+DomainTitleMatchScore: float64
+URLTitleMatchScore: float64
+HasFavicon: int64
+Robots: int64
+IsResponsive: int64
+NoOfURLRedirect: int64
+NoOfSelfRedirect: int64
+HasDescription: int64
+NoOfPopup: int64
+NoOfiFrame: int64
+HasExternalFormSubmit: int64
+HasSocialNet: int64
+HasSubmitButton: int64
+HasHiddenFields: int64
+HasPasswordField: int64
+Bank: int64
+Pay: int64
+Crypto: int64
+HasCopyrightInfo: int64
+NoOfImage: int64
+NoOfCSS: int64
+NoOfJS: int64
+NoOfSelfRef: int64
+NoOfEmptyRef: int64
+NoOfExternalRef: int64
+
+Target label counts:
+label
+0    100945
+1    134850

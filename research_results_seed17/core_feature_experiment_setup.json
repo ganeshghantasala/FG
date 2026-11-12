@@ -1,0 +1,19 @@
+{
+  "dataset": "UCI PhiUSIIL",
+  "split": "GroupShuffleSplit by normalized Domain",
+  "random_state": 42,
+  "positive_class": "phishing (original label 0)",
+  "excluded_features": [
+    "CharContinuationRate",
+    "URLTitleMatchScore",
+    "DomainTitleMatchScore",
+    "URLSimilarityIndex",
+    "URLCharProb",
+    "TLDLegitimateProb"
+  ],
+  "train_rows": 189464,
+  "original_test_rows": 46331,
+  "strict_test_rows": 36827,
+  "shared_domains": 0,
+  "shared_core_vectors": 0
+}

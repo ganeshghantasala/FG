@@ -1,0 +1,2 @@
+evaluation,model,features,training_rows,original_test_rows,strict_test_rows,excluded_repeated_pattern_rows,domain_overlap,feature_vector_overlap,accuracy,precision,recall,f1_score,roc_auc,average_precision,specificity,false_positive_rate,true_negative,false_positive,false_negative,true_positive
+Domain-separated and novel-feature-vector test,Random Forest,47,189074,46721,38303,8418,0,0,0.9999216771532256,1.0,0.9997366341848828,0.9998682997497695,0.9999991714363228,0.9999979161742553,1.0,0.0,26912,0,3,11388

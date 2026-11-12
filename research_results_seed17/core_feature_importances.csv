@@ -1,0 +1,161 @@
+experiment,feature,importance
+URL structure only,URLLength,0.05526166640661281
+URL structure only,DomainLength,0.026707556365943515
+URL structure only,IsDomainIP,7.633081185565238e-07
+URL structure only,TLDLength,0.007810391934303168
+URL structure only,NoOfSubDomain,0.03628719264093501
+URL structure only,HasObfuscation,4.4931932284308527e-13
+URL structure only,NoOfObfuscatedChar,2.8585609263441077e-08
+URL structure only,ObfuscationRatio,1.2580046551902686e-08
+URL structure only,NoOfLettersInURL,0.04651054438090762
+URL structure only,LetterRatioInURL,0.07665945933425106
+URL structure only,NoOfDegitsInURL,0.07947965450123698
+URL structure only,DegitRatioInURL,0.07965506304464381
+URL structure only,NoOfEqualsInURL,0.00041073227216528805
+URL structure only,NoOfQMarkInURL,0.0007900948416400737
+URL structure only,NoOfAmpersandInURL,1.8147988688840128e-06
+URL structure only,NoOfOtherSpecialCharsInURL,0.150276208552092
+URL structure only,SpacialCharRatioInURL,0.05215427220804053
+URL structure only,IsHTTPS,0.38799454424413554
+Webpage/context only,LineOfCode,0.15894929717187356
+Webpage/context only,LargestLineLength,0.023787693859548927
+Webpage/context only,HasTitle,0.0002488680651195782
+Webpage/context only,HasFavicon,0.0007501569998711031
+Webpage/context only,Robots,0.0006166935747634836
+Webpage/context only,IsResponsive,0.006930520004370215
+Webpage/context only,NoOfURLRedirect,0.0008785575276643875
+Webpage/context only,NoOfSelfRedirect,8.383929207975256e-05
+Webpage/context only,HasDescription,0.03363609759179486
+Webpage/context only,NoOfPopup,0.00029955886238941987
+Webpage/context only,NoOfiFrame,0.0013153911003071185
+Webpage/context only,HasExternalFormSubmit,0.0001671287694728248
+Webpage/context only,HasSocialNet,0.08183368250088113
+Webpage/context only,HasSubmitButton,0.004226164522122986
+Webpage/context only,HasHiddenFields,0.0035788132331923818
+Webpage/context only,HasPasswordField,0.0035463465435830945
+Webpage/context only,Bank,0.0008378640349241832
+Webpage/context only,Pay,0.0005341205629504005
+Webpage/context only,Crypto,0.00023413335890134287
+Webpage/context only,HasCopyrightInfo,0.0636062247440612
+Webpage/context only,NoOfImage,0.12284029911970012
+Webpage/context only,NoOfCSS,0.03347685610890856
+Webpage/context only,NoOfJS,0.0967547159785472
+Webpage/context only,NoOfSelfRef,0.16668167310253015
+Webpage/context only,NoOfEmptyRef,0.009513893798098834
+Webpage/context only,NoOfExternalRef,0.18467140957234313
+Combined core features,URLLength,0.016607663252916027
+Combined core features,DomainLength,0.002054499537937821
+Combined core features,IsDomainIP,1.2372016522790253e-05
+Combined core features,TLDLength,0.0002884283522814605
+Combined core features,NoOfSubDomain,0.00618675870476444
+Combined core features,HasObfuscation,5.525697913719786e-06
+Combined core features,NoOfObfuscatedChar,4.4661346683395495e-06
+Combined core features,ObfuscationRatio,8.944037635879975e-06
+Combined core features,NoOfLettersInURL,0.011226486529500396
+Combined core features,LetterRatioInURL,0.007679959714017531
+Combined core features,NoOfDegitsInURL,0.012987013102800088
+Combined core features,DegitRatioInURL,0.012068908154046461
+Combined core features,NoOfEqualsInURL,0.0004089642708427094
+Combined core features,NoOfQMarkInURL,0.0004406947936972201
+Combined core features,NoOfAmpersandInURL,1.4503262931041765e-05
+Combined core features,NoOfOtherSpecialCharsInURL,0.019296902666206626
+Combined core features,SpacialCharRatioInURL,0.006666998612505649
+Combined core features,IsHTTPS,0.012620312472372518
+Combined core features,LineOfCode,0.19410782251916517
+Combined core features,LargestLineLength,0.01438639960999157
+Combined core features,HasTitle,0.0001123665623030729
+Combined core features,HasFavicon,0.0004918839650516951
+Combined core features,Robots,0.0008224877033483405
+Combined core features,IsResponsive,0.011603154850816607
+Combined core features,NoOfURLRedirect,7.170581110036372e-05
+Combined core features,NoOfSelfRedirect,6.101942870392071e-06
+Combined core features,HasDescription,0.03807791785313689
+Combined core features,NoOfPopup,0.00011282523390017046
+Combined core features,NoOfiFrame,0.0006041183964369009
+Combined core features,HasExternalFormSubmit,1.41650155348346e-05
+Combined core features,HasSocialNet,0.035217229260817745
+Combined core features,HasSubmitButton,0.005862484731072939
+Combined core features,HasHiddenFields,0.0041391816859933
+Combined core features,HasPasswordField,0.0003201022813400373
+Combined core features,Bank,0.00025642263359084057
+Combined core features,Pay,0.0004268763750087632
+Combined core features,Crypto,4.858057602443171e-05
+Combined core features,HasCopyrightInfo,0.021774665649698575
+Combined core features,NoOfImage,0.10090634226242508
+Combined core features,NoOfCSS,0.06976979002064163
+Combined core features,NoOfJS,0.07146631992967976
+Combined core features,NoOfSelfRef,0.12542270187075819
+Combined core features,NoOfEmptyRef,0.009884767668021864
+Combined core features,NoOfExternalRef,0.1855141842777102
+Combined without top six,URLLength,0.023749036604693366
+Combined without top six,DomainLength,0.004910579283354859
+Combined without top six,IsDomainIP,9.114517257005512e-06
+Combined without top six,TLDLength,0.0010904970971032564
+Combined without top six,NoOfSubDomain,0.011462232829703186
+Combined without top six,HasObfuscation,2.231739108178702e-07
+Combined without top six,NoOfObfuscatedChar,1.8584735522808216e-06
+Combined without top six,ObfuscationRatio,9.315253012619464e-07
+Combined without top six,NoOfLettersInURL,0.019235440094977397
+Combined without top six,LetterRatioInURL,0.02143409638437745
+Combined without top six,NoOfDegitsInURL,0.020142545467976402
+Combined without top six,DegitRatioInURL,0.02813125426258222
+Combined without top six,NoOfEqualsInURL,0.0004343329776442165
+Combined without top six,NoOfQMarkInURL,0.0005525452983686896
+Combined without top six,NoOfAmpersandInURL,5.525260857768723e-06
+Combined without top six,NoOfOtherSpecialCharsInURL,0.07214857695627357
+Combined without top six,SpacialCharRatioInURL,0.02353395941741279
+Combined without top six,IsHTTPS,0.05962102005517133
+Combined without top six,LargestLineLength,0.06407006348993109
+Combined without top six,HasTitle,0.005143627673688271
+Combined without top six,HasFavicon,0.022723869073344227
+Combined without top six,Robots,0.0018352652720244678
+Combined without top six,IsResponsive,0.028715104759950132
+Combined without top six,NoOfURLRedirect,0.0003220139384816324
+Combined without top six,NoOfSelfRedirect,5.395132558581933e-05
+Combined without top six,HasDescription,0.0942201816522457
+Combined without top six,NoOfPopup,0.0013361721593326478
+Combined without top six,NoOfiFrame,0.0159896658040988
+Combined without top six,HasExternalFormSubmit,7.214066368939944e-05
+Combined without top six,HasSocialNet,0.22256670586566918
+Combined without top six,HasSubmitButton,0.04623263469698971
+Combined without top six,HasHiddenFields,0.024987551841168024
+Combined without top six,HasPasswordField,0.0005268291491265667
+Combined without top six,Bank,0.00021282946991592666
+Combined without top six,Pay,0.0028142584534865934
+Combined without top six,Crypto,0.00015224777161207948
+Combined without top six,HasCopyrightInfo,0.14612060469167978
+Combined without top six,NoOfEmptyRef,0.03544051256746184
+Combined without 10 selected features,URLLength,0.04727655136889565
+Combined without 10 selected features,DomainLength,0.014298482327046929
+Combined without 10 selected features,IsDomainIP,3.295021081131944e-05
+Combined without 10 selected features,TLDLength,0.004237332876056971
+Combined without 10 selected features,NoOfSubDomain,0.019204396082728108
+Combined without 10 selected features,HasObfuscation,7.84711536259781e-07
+Combined without 10 selected features,NoOfObfuscatedChar,1.1513348098168822e-06
+Combined without 10 selected features,ObfuscationRatio,2.560004456956059e-05
+Combined without 10 selected features,NoOfLettersInURL,0.0385899649828096
+Combined without 10 selected features,LetterRatioInURL,0.04417339433813952
+Combined without 10 selected features,NoOfDegitsInURL,0.044757337570408694
+Combined without 10 selected features,DegitRatioInURL,0.0636714095528816
+Combined without 10 selected features,NoOfEqualsInURL,0.0001593209270979167
+Combined without 10 selected features,NoOfQMarkInURL,0.0010376229228063016
+Combined without 10 selected features,NoOfAmpersandInURL,3.656201527741023e-05
+Combined without 10 selected features,NoOfOtherSpecialCharsInURL,0.1025666551962553
+Combined without 10 selected features,SpacialCharRatioInURL,0.03331317800284999
+Combined without 10 selected features,LargestLineLength,0.174768152893122
+Combined without 10 selected features,HasTitle,0.029314691849446187
+Combined without 10 selected features,HasFavicon,0.043671644205234283
+Combined without 10 selected features,Robots,0.015540480274208962
+Combined without 10 selected features,IsResponsive,0.06643695934591447
+Combined without 10 selected features,NoOfURLRedirect,0.0018244839437502516
+Combined without 10 selected features,NoOfSelfRedirect,0.002810342858292894
+Combined without 10 selected features,NoOfPopup,0.0032784075291934166
+Combined without 10 selected features,NoOfiFrame,0.04750199983200626
+Combined without 10 selected features,HasExternalFormSubmit,0.0003336524034156436
+Combined without 10 selected features,HasSubmitButton,0.1013868091687275
+Combined without 10 selected features,HasHiddenFields,0.043685771049970554
+Combined without 10 selected features,HasPasswordField,0.0009601937003201728
+Combined without 10 selected features,Bank,0.0017005582789637035
+Combined without 10 selected features,Pay,0.007615915662178317
+Combined without 10 selected features,Crypto,0.0003818932846051998
+Combined without 10 selected features,NoOfEmptyRef,0.04540534925566915

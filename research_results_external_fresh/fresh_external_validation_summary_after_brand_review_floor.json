@@ -1,0 +1,32 @@
+{
+  "manifest_created_utc": "2026-10-19T15:37:54.359314+00:00",
+  "phish_verification_cutoff_utc": "2026-10-18T15:37:54.359314+00:00",
+  "freshness_window_hours": 24,
+  "sampling_seed": 43,
+  "fresh_phishtank_eligible_count": 70,
+  "fresh_phishtank_selected_count": 10,
+  "tranco_pool_size": 5000,
+  "tranco_selected_count": 10,
+  "risk_threshold_percentage_points": 45.0,
+  "completed_utc": "2026-10-20T12:10:37.911778+00:00",
+  "risk_score_scale": "FakeGuard API score in percentage points, 0-100",
+  "total_rows": 20,
+  "successful_scans": 13,
+  "failed_scans": 7,
+  "recently_verified_phishing_successful_scans": 7,
+  "recently_verified_phishing_TP": 5,
+  "recently_verified_phishing_FN": 2,
+  "detection_rate_among_successful_recent_phishing_scans": 0.7142857142857143,
+  "tranco_candidate_successful_scans": 6,
+  "tranco_candidates_flagged": 0,
+  "tranco_candidate_flag_rate_not_false_positive_rate": 0.0,
+  "results_csv": "C:\\Users\\ganes\\OneDrive\\Documents\\Desktop\\FakeGuard-main\\research_results_external_fresh\\fresh_external_validation_results_after_brand_review_floor.csv",
+  "limitations": [
+    "This is a small exploratory pilot, not a publication-grade performance estimate.",
+    "Recent PhishTank verification timestamps do not guarantee the page is still phishing when fetched.",
+    "Tranco popularity does not establish benign ground truth; its flagged rate is not a false-positive rate.",
+    "Fetch/API failures are reported separately and excluded from detection-rate denominators.",
+    "Live content, DNS, redirects, anti-bot measures, and network conditions can change results.",
+    "ML, HTML, identity, and evidence fields are recorded to diagnose component behavior, not to prove causal explanations."
+  ]
+}

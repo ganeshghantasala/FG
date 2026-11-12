@@ -1,0 +1,11 @@
+{
+  "manifest_created_utc": "2026-10-19T15:37:54.359314+00:00",
+  "phish_verification_cutoff_utc": "2026-10-18T15:37:54.359314+00:00",
+  "freshness_window_hours": 24,
+  "sampling_seed": 43,
+  "fresh_phishtank_eligible_count": 70,
+  "fresh_phishtank_selected_count": 10,
+  "tranco_pool_size": 5000,
+  "tranco_selected_count": 10,
+  "risk_threshold_percentage_points": 45.0
+}
